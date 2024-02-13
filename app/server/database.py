@@ -1,7 +1,7 @@
 import motor.motor_asyncio
 from bson.objectid import ObjectId
 
-MONGO_DETAILS = "your_database_config_here"
+MONGO_DETAILS = "put your mongo path here."
 
 client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_DETAILS)
 
